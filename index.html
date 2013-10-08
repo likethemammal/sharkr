@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sharkr Bookmarklet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="page-container">
+
+<div class="page-wrapper">
+
+    <img src="logo.png"/>
+
+    <h2>Sharkr. Beneath the surface</h2>
+
+    <p class="description">Sharkr shows and hides a user's entire custom profile theme. Its a bookmarklet, so click and drag this link to you're bookmarks bar:</p>
+
+    <div class="bookmark-container">
+        <h5>Bookmarklet</h5>
+        <a href='javascript: (!function(){"grooveshark.com"===window.location.host?"1"===$("#page").css("opacity")?$("#page").animate({opacity:0},500):$("#page").animate({opacity:1},500):alert("Yo, go to Grooveshark!")}());' class="bookmarklet">Sharkr</a>
+    </div>
+
+    <p class="github">This entire project can be found on <a href="http://github.com/likethemammal/sharkr" >Github</a>.</p>
+
+    <p class="attribution">Made by <a href="http://twitter.com/likethemammal" class="me">Chris Dolphin</a>, one of the dev guy over at <a href="http://grooveshark.com/" class="grooveshark">Grooveshark</a></p>
+
+</div>
+
+</div>
+
+</body>
+</html>
