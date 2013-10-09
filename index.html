@@ -14,18 +14,18 @@
 
     <img src="logo.png"/>
 
-    <h2>Sharkr. Beneath the surface</h2>
+    <h2>Sharkr. Beneath the surface.</h2>
 
     <p class="description">Sharkr shows and hides a user's entire custom profile theme. Its a bookmarklet, so click and drag this link to you're bookmarks bar:</p>
 
     <div class="bookmark-container">
         <h5>Bookmarklet</h5>
-        <a href='javascript: (!function(){"grooveshark.com"===window.location.host?"1"===$("#page").css("opacity")?$("#page").animate({opacity:0},500):$("#page").animate({opacity:1},500):alert("Yo, go to Grooveshark!")}());' class="bookmarklet">Sharkr</a>
+        <a href='javascript: (!function(){"grooveshark.com"===window.location.host?$("#page").animate({opacity:"toggle"},500):alert("Yo, go to Grooveshark!")}());' class="bookmarklet">sharkr</a>
     </div>
 
     <p class="github">This entire project can be found on <a href="http://github.com/likethemammal/sharkr" >Github</a>.</p>
 
-    <p class="attribution">Made by <a href="http://twitter.com/likethemammal" class="me">Chris Dolphin</a>, one of the dev guy over at <a href="http://grooveshark.com/" class="grooveshark">Grooveshark</a></p>
+    <p class="attribution">Made by <a href="http://twitter.com/likethemammal" class="me">Chris Dolphin</a>, one of the dev guys over at <a href="http://grooveshark.com/" class="grooveshark">Grooveshark</a></p>
 
 </div>
 

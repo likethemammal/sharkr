@@ -22,8 +22,10 @@ img {
     top: 30px;
     left: 0;
     right: 0;
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     margin: auto;
+    margin-bottom: 30px;
     overflow: hidden;
     border: solid 1px #bbb;
     background: #fff;
