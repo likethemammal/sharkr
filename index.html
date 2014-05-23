@@ -3,31 +3,36 @@
 <head>
     <title>Sharkr Bookmarklet</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 
+<div class="bg-container"></div>
+
 <div class="page-container">
 
-<div class="page-wrapper">
+    <div class="page-wrapper">
+    
+    <header class="header clearfix">
 
-    <img src="logo.png"/>
+        <img src="imgs/gs-logo.png"/>
 
-    <h2>Sharkr. Beneath the surface.</h2>
+        <h2>Sharkr. Beneath the surface.</h2>
 
-    <p class="description">Sharkr shows and hides a user's entire custom profile theme. Its a bookmarklet, so click and drag this link to you're bookmarks bar:</p>
+        <p class="description">Sharkr shows and hides a user's entire custom profile theme. Its a bookmarklet, so click and drag this link to you're bookmarks bar:</p>
+    
+    </header>
 
-    <div class="bookmark-container">
-        <h5>Bookmarklet</h5>
-        <a href='javascript: (!function(){"grooveshark.com"===window.location.host?$("#page").animate({opacity:"toggle"},500):alert("Yo, go to Grooveshark!")}());' class="bookmarklet">sharkr</a>
+        <div class="bookmark-container">
+            <h5>Bookmarklet</h5>
+            <a href='javascript: (!function(){"grooveshark.com"===window.location.host?$("#page").animate({opacity:"toggle"},500):alert("Yo, go to Grooveshark!")}());' class="bookmarklet">sharkr</a>
+        </div>
+
+        <p class="github">This entire project can be found on <a href="http://github.com/likethemammal/sharkr" >Github</a>.</p>
+
+        <p class="attribution">Made by <a href="http://twitter.com/likethemammal" class="me">Chris Dolphin</a>, while working as a dev over at <a href="http://grooveshark.com/" class="grooveshark">Grooveshark</a></p>
+
     </div>
-
-    <p class="github">This entire project can be found on <a href="http://github.com/likethemammal/sharkr" >Github</a>.</p>
-
-    <p class="attribution">Made by <a href="http://twitter.com/likethemammal" class="me">Chris Dolphin</a>, one of the dev guys over at <a href="http://grooveshark.com/" class="grooveshark">Grooveshark</a></p>
-
-</div>
 
 </div>
 
